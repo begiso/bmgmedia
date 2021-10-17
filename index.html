@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Webpage Title -->
+    <title>BMG media</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Zenith</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image page-scroll back-to-home" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                            <div class="col-lg-6 nav-icons">
+                                <a class="nav-icon" href="https://www.instagram.com/bmg.uz/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="nav-icon" href="https://t.me/bmg_media" target="_blank">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">KOMPANIYA HAQIDA <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">XIZMATLAR <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#clients">MIJOZLARIMIZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">ALOQA</a>
+                    </li>
+                    <!-- <button class="btn-solid-reg open-popup">Murojaat qilish</button> -->
+
+                </ul>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-5 left-wrapper">
+                    <div class="text-container animate__animated animate__fadeInLeft wow">
+                        <h2 class="header-bmg">BMG - Brendingizni rivojlantiramiz, mijozlarni jalb qilamiz 
+                         va savdoni kuchaytiramiz.</h2>
+                         <!-- <button class="btn-top open-popup">Murojaat qilish</button> -->
+                         <div class="modalContent popup-bg">
+                            <div class="form-container popup">
+                                <img class="close-popup" src="images/close.png" alt="">
+                                <form action="mail.php" method="POST">
+                                    <p>Murojaat uchun <a href="tel:+998992272323">(99) 2272323</a> raqamiga qo'ng'iroq qiling yoki telefon raqamingizni qoldiring</p>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" name="user_name" id="cname" required>
+                                        <label class="label-control" for="cname">Ismingiz</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control-input" name="user_phone" id="cemail" required>
+                                        <label class="label-control" for="cemail">Telefon raqamingiz</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="form-control-submit-button">Yuborish</button>
+                                    </div>
+                                </form>
+                            </div>
+                         </div>
+                         <div id="modal">
+                             <div class="containerModal">
+                                 <i class="fa fa-close closeModal">
+                                 </i>
+                                 <div id="innerModal"></div>
+                             </div>
+                         </div>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-xl-7 right-wrapper">
+                    <div class="text-container">
+                        <h1 id="js-rotating" class="h1-large animate__animated animate__fadeInRight wow">SMM, BRENDING, DIZAYN, LOGOTIP, VIDEO REKLAMA, SHAXSIY BREND</h1>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container-fluid -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- About -->
+    <div id="about" class="basic-1">
+        <div class="container">
+            <div class="row text-center animate__animated animate__fadeInUp wow">
+               <h2 class="about-header">BMG kompaniyasi haqida</h2>
+               <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla corporis, suscipit non amet commodi eos? Harum, voluptatibus quisquam corrupti dolore iusto placeat unde voluptatum voluptatem sapiente libero sint quae provident eveniet? Debitis sit maxime, nam fuga quod iure quo nihil obcaecati accusamus illum ea architecto minus, saepe, ullam libero adipisci doloremque? Aperiam perspiciatis quibusdam perferendis accusantium veniam hic molestiae eligendi vero velit numquam iste provident, quisquam, alias aut corrupti! Autem quaerat amet doloremque ea molestiae eius in provident. Sequi, explicabo at vel ullam, distinctio magnam voluptatum adipisci dolorum sapiente dolorem exercitationem. Eligendi mollitia quam sunt id cupiditate, voluptatibus labore?</p>                
+               <!-- <button class="btn-solid-reg open-popup">Murojaat qilish</button> -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of About -->
+
+
+    <!-- Services -->
+    <div id="services" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="services-container animate__animated animate__fadeInLeft wow">
+                        <div class="services-icon">
+                            <img class="img-fluid" src="images/service-icon-3.svg" alt="alternative">
+                        </div> <!-- end of services-image -->
+                        <div class="services-text">
+                            <h2>SMM</h2>
+                            <p>Social Media Marketing – bu ijtimoiy tarmoqlarda 
+                                o'z brendingizni targ'ib qilishdir. 
+                                <br/>SMMning asosiy maqsadi – brendingiz 
+                                obroʼsini oshirish, mahsulotingizga qiziqish va 
+                                yangi mijozlarni jalb qilishdan iborat. </p>
+                        </div> <!-- end of services-text -->
+                    </div> <!-- end of services-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="services-container animate__animated animate__fadeInRight wow">
+                        <div class="services-icon">
+                            <img class="img-fluid" src="images/service-icon-4.svg" alt="alternative">
+                        </div> <!-- end of services-image -->
+                        <div class="services-text">
+                            <h2>DIZAYN</h2>
+                            <p>Dizayn kompaniyaning moliyaviy ahvoli, obro'si va ishonchida katta rol o'ynaydi. 
+                                Yaxshi dizayn kompaniya ishining yuqori sifati, professionalligi va ularning 
+                                bozordagi mavqeyi haqida gapiradi.</p>
+                        </div> <!-- end of services-text -->
+                    </div> <!-- end of services-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="services-container animate__animated animate__fadeInLeft wow">
+                        <div class="services-icon">
+                            <img class="img-fluid" src="images/service-icon-1.svg" alt="alternative">
+                        </div> <!-- end of services-image -->
+                        <div class="services-text">
+                            <h2>BRENDING</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, dolores veritatis vitae corporis minus numquam quia maiores asperiores? Voluptates fugiat ipsa, ratione cum quas quaerat?</p>
+                        </div> <!-- end of services-text -->
+                    </div> <!-- end of services-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="services-container animate__animated animate__fadeInRight wow">
+                        <div class="services-icon">
+                            <img class="img-fluid" src="images/service-icon-2.svg" alt="alternative">
+                        </div> <!-- end of services-image -->
+                        <div class="services-text">
+                            <h2>VIDEO REKLAMA</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati molestiae, esse voluptate cum voluptas, distinctio omnis vel corrupti porro nesciunt nam fugiat officiis quasi.</p>
+                        </div> <!-- end of services-text -->
+                    </div> <!-- end of services-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        <!-- <div class="textCenter"><button class="btn-solid-reg open-popup animate__animated animate__fadeInUp wow">Murojaat qilish</button></div> -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of services -->
+
+
+    <!-- Details 1 -->
+    <div id="clients" class="clients-block">
+        <div class="container">
+                <div class="clients-header">
+                    <h2>Bizning mijozlarimiz</h2>
+                </div>
+                <div class="slider">
+                    <div class="slider-item">
+                        <a href="https://www.instagram.com/oqibat_99/"><img class="carousel-logo" src="images/Clients/oqibat.png" alt="oqibat"></a>
+                    </div>
+                    <div class="slider-item">
+                        <a href="https://www.instagram.com/steady_learning_centre/"><img class="carousel-logo" src="images/Clients/steady.png" alt="steady"></a>
+                    </div>
+                    <div class="slider-item">
+                        <a href="https://www.instagram.com/bravo_chair/"><img class="carousel-logo" src="images/Clients/bravo.png" alt="bravo"></a>
+                    </div>
+                    <div class="slider-item">
+                        <a href="https://www.instagram.com/printhouse.uz/"><img class="carousel-logo" src="images/Clients/print.png" alt="print"></a>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <div class="arrow-left">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="arrow-right">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+        </div> <!-- end of container -->
+    </div> 
+    <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+    <!-- Contact -->
+    <div id="contact" class="form-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-5 left-wrapper">
+                    <div class="text-container">
+                        <h2>ALOQA</h2>
+                        <!-- <p>For field sales workers there's nothing more important than a reliable interface to the company's knowledge base app. Don't hesitate to get in touch with our sales team.</p> -->
+                        
+                        <!-- Contact Container -->
+                        <div class="contact-container"> 
+                            <div class="contact-icon">
+                                <img class="img-fluid" src="images/contact-icon-pin.svg" alt="alternative">
+                            </div> <!-- end of contact-icon -->
+                            <div class="contact-text">
+                                <div>
+                                    Toshkent Shahri
+                                    <br>Muqimiy ko'chasi №1
+                                    <!-- <br> -->
+                                </div>
+                            </div> <!-- end of contact-text -->
+                        </div> <!-- end of contact-container -->
+                        <!-- end of contact container -->
+
+                        <!-- Contact Container -->
+                        <div class="contact-container"> 
+                            <div class="contact-icon">
+                                <img class="img-fluid" src="images/contact-icon-smartphone.svg" alt="alternative">
+                            </div> <!-- end of contact-icon -->
+                            <div class="contact-text">
+                                <div>
+                                    Mobil: <a class="white no-line" href="tel:998992272323">(99) 227 23 23</a>
+                                    <br>Mobil: <a class="white no-line" href="tel:998996042020">(99) 604 20 20</a>
+                                </div>
+                            </div> <!-- end of contact-text -->
+                        </div> <!-- end of contact-container -->
+                        <!-- end of contact container -->
+
+                        <!-- Contact Container -->
+                        <div class="contact-container"> 
+                            <div class="contact-icon">
+                                <img class="img-fluid" src="images/contact-icon-mail.svg" alt="alternative">
+                            </div> <!-- end of contact-icon -->
+                            <div class="contact-text">
+                                <div>
+                                    <a class="white no-line" href="https://t.me/bmg_manager">Telegramda xabar qoldirish</a>
+                                    <br><a class="white no-line" href="https://instagram.com/bmg.uz/">Instagramda xabar qoldirish</a>
+                                </div>
+                            </div> <!-- end of contact-text -->
+                        </div> <!-- end of contact-container -->
+                        <!-- end of contact container -->
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-xl-7 right-wrapper">
+                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.3699807498276!2d69.24427356918893!3d41.277455862913506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a8bbc437149%3A0x6280b2bd50972726!2zMSDRg9C70LjRhtCwINCc0YPQutC40LzQuCwg0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1634476747176!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+                    <!-- Contact Form -->
+                    <!-- <div class="form-container">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="cname" required>
+                                <label class="label-control" for="cname">Ismingiz</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="cemail" required>
+                                <label class="label-control" for="cemail">Telefon raqamingiz</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                                <label class="label-control" for="cmessage">Murojaatingiz</label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Yuborish</button>
+                            </div>
+                        </form> -->
+                    <!-- </div>  -->
+                    <!-- end of form-container -->
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of contact -->
+
+
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="p-small">Copyright ©2021 <a href="https://bmgmedia.uz">BMG group</a></p>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <a href="https://t.me/bmg_media">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bmg.uz/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="js/modal.js"></script> <!-- Custom modal -->
+    <script src="js/wow.min.js"></script>
+    <script>
+		var wow = new WOW;
+		wow.init();
+	</script>
+    <!-- <script src="//code-ya.jivosite.com/widget/SZ3W8SRHGs" async></script> -->
+    <script src="js/slick.min.js"></script>
+
+    
+</body>
+</html>
